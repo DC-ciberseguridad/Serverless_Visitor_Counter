@@ -1,0 +1,27 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+*.tfvars.json
+.terraform.lock.hcl
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+
+# Docker
+.docker/
+*.tar
+
+# OS & IDEs
+.DS_Store
+.vscode/
+.idea/
+
+# GitHub Actions (Local testing)
+.env
