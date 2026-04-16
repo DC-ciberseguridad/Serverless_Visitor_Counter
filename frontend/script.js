@@ -1,5 +1,5 @@
 // La URL la obtendremos después de desplegar API Gateway con Terraform
-const apiUrl = 'https://qykh1wqwkd.execute-api.us-east-1.amazonaws.com';
+const apiUrl = 'https://qykh1wqwkd.execute-api.us-east-1.amazonaws.com/visits';
 
 async function getVisitCount() {
     try {
