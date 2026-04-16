@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "frontend_bucket" {
-  bucket = "Serverless_Visitor_Counter" # Debe ser único globalmente
+  bucket = "serverless-visitor-counter" # Debe ser único globalmente
 }
 
 resource "aws_s3_bucket_website_configuration" "frontend_config" {

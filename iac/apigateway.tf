@@ -1,4 +1,3 @@
-/*
 resource "aws_apigatewayv2_api" "lambda_api" {
   name          = "visitor_counter_api"
   protocol_type = "HTTP"
@@ -35,4 +34,3 @@ resource "aws_lambda_permission" "api_gw" {
   principal     = "apigateway.amazonaws.com"
   source_arn    = "${aws_apigatewayv2_api.lambda_api.execution_arn}/*/*"
 }
-*/

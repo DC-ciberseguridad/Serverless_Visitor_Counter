@@ -8,7 +8,7 @@ terraform {
 
   # Configuración del estado remoto
   backend "s3" {
-    bucket = "state-terraform-Counter" # Cámbialo por uno real
+    bucket = "state-terraform-counter" # Cámbialo por uno real
     key    = "serverless-visitor/terraform.tfstate"
     region = "us-east-1"
   }
