@@ -2,7 +2,7 @@ resource "aws_apigatewayv2_api" "lambda_api" {
   name          = "visitor_counter_api"
   protocol_type = "HTTP"
   cors_configuration {
-    allow_origins = ["*"] # En producción, aquí pondrías la URL de tu S3
+    allow_origins = ["http://serverless-visitor-counter.s3-website-us-east-1.amazonaws.com"] # En producción, aquí pondrías la URL de tu S3
     allow_methods = ["POST", "OPTIONS"]
   }
 }
